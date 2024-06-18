@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: 'Hanken Grotesk';
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.main{
+    display:  flex;
+    flex-direction: row;
+    /* flex: 1; */
+    border-radius: 40px;
+    /* min-width:  60%; */
+    overflow: hidden;
+    flex-wrap: wrap;
+    box-shadow: 0 20px 40px lightblue;
+   
+
+   
+    
+}
+
+.one{
+background-image:  linear-gradient( to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+color: white;
+display: flex;
+flex-direction: column;
+flex: 1;
+border-radius: 20px;
+align-items: center;
+padding: 3rem 0;
+justify-content: space-between;
+}
+
+
+.one .percent{
+ 
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  
+}
+
+.one p{
+    opacity: 0.6;
+    font-size: x-large;
+    width: 60%;
+    text-align: center;
+}
+
+.one .percent .number{
+    font-size: 5rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    font-weight: 700;
+}
+
+
+
+.two{
+/* background-color: red; */
+display: flex;
+flex-direction: column;
+flex: 1;
+padding: 3.5rem 0 3.5rem 3.5rem;
+align-items: flex-start;
+justify-content: space-between;
+font-size: large;
+}
+
+.red {
+    color: #f55;
+
+}
+
+.yellow{
+    color: hsl(39, 100%, 56%);
+}
+
+.green{
+    color: hsl(166, 100%, 37%);
+}
+.blue{
+    color: hsl(234, 85%, 45%);
+}
+
+.two h2{
+    margin: 0;
+}
+
+.two p{
+    opacity: 0.7;
+}
+
+.two .score{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+    /* flex: 1 1 50%; */
+}
+
+.two .score img{
+    margin: 0 1rem;
+}
+
+.two .score p{
+margin: 0;
+margin-right: 5rem;
+
+
+
+}
+
+.two .score p .outOf{
+    /* display: flex; */
+    align-items: end;
+}
+
+.btn{
+    width: 6%;
+    padding:1.5rem 0;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: larger;
+    
+}
+
+.low{
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 10px;
+    /* display: flex;
+    flex: 1 1 30%;
+    text-align: justify ; */
+}
+
+
+.high{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    /* display: flex;
+    flex: 1 1 30%;
+    text-align: justify ; */
+}
+
