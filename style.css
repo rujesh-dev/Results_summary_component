@@ -4,10 +4,14 @@
 
 body{
     font-family: 'Hanken Grotesk';
-    height: 100vh;
-    display: flex;
+    /* height: 100vh; */
+    /* display: flex; */
+    /* flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    font-size: 16px;
+    width: 100vw;
+    /* overflow: hidden; */
 
 }
 
@@ -15,12 +19,13 @@ body{
 .main{
     display:  flex;
     flex-direction: row;
-    /* flex: 1; */
+    flex: 1;
     border-radius: 40px;
-    /* min-width:  60%; */
+    /* width: max-content; */
     overflow: hidden;
     flex-wrap: wrap;
     box-shadow: 0 20px 40px lightblue;
+    width: 60%;
    
 
    
@@ -32,11 +37,13 @@ background-image:  linear-gradient( to bottom, hsl(252, 100%, 67%), hsl(241, 81%
 color: white;
 display: flex;
 flex-direction: column;
-flex: 1;
+/* flex: 1; */
 border-radius: 20px;
 align-items: center;
 padding: 3rem 0;
 justify-content: space-between;
+min-height: fit-content;
+width: 50%;
 }
 
 
@@ -56,8 +63,8 @@ justify-content: space-between;
 
 .one p{
     opacity: 0.6;
-    font-size: x-large;
-    width: 60%;
+    /* font-size: x-large; */
+    width: 80%;
     text-align: center;
 }
 
@@ -78,7 +85,8 @@ flex: 1;
 padding: 3.5rem 0 3.5rem 3.5rem;
 align-items: flex-start;
 justify-content: space-between;
-font-size: large;
+/* font-size: large; */
+width: 40%;
 }
 
 .red {
@@ -112,6 +120,7 @@ font-size: large;
     justify-content: space-between;
     margin: 1rem 0;
     /* flex: 1 1 50%; */
+    width: max-content;
 }
 
 .two .score img{
@@ -120,19 +129,20 @@ font-size: large;
 
 .two .score p{
 margin: 0;
-margin-right: 5rem;
+/* margin-right: 5rem; */
+/* min-width: 200px; */
 
 
 
 }
 
 .two .score p .outOf{
-    /* display: flex; */
+    display: flex;
     align-items: end;
 }
 
 .btn{
-    width: 6%;
+    width: 17rem;
     padding:1.5rem 0;
     border-radius: 40px;
     background-color: hsl(224, 30%, 27%);
@@ -144,6 +154,7 @@ margin-right: 5rem;
 .low{
     background-color: hsl(221, 100%, 96%);
     border-radius: 10px;
+    display: grid;
     /* display: flex;
     flex: 1 1 30%;
     text-align: justify ; */
@@ -153,8 +164,31 @@ margin-right: 5rem;
 .high{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
+    display: grid;
     /* display: flex;
     flex: 1 1 30%;
     text-align: justify ; */
 }
+
+.low div{
+    display: flex;
+    padding: 0 3rem;
+}
+
+
+.high div{
+display: flex;
+padding: 0 3rem;
+
+}
+
+.score div p{
+    /* min-width: 200px; */
+}
+
+
+.outOf{
+    padding-right: 10vmin;
+}
+
 
